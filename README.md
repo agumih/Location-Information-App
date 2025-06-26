@@ -4,11 +4,11 @@
 This is a JavaFX desktop application designed to provide comprehensive, interactive information about a given U.S. ZIP code. It fetches and displays various data points, including demographics, real estate trends, median income, and details about local schools.
 
 ## Features
-* Demographics: Visualizes population distribution by race and age using interactive pie charts.
+* **Demographics:** Visualizes population distribution by race and age using interactive pie charts.
 
-* Real Estate & Income: Displays average home prices, rents, and median household income.
+* **Real Estate & Income:** Displays average home prices, rents, and median household income.
 
-* Local Schools: Lists top local schools with detailed information available via clickable pop-ups (including school type, charter status, address, phone, and website).
+* **Local Schools:** Lists top local schools with detailed information available via clickable pop-ups (including school type, charter status, address, phone, and website).
 
 ## How to Run the Application
 This project is a JavaFX application built with Maven. It can be easily run from popular IDEs like IntelliJ IDEA or directly from your command line.
@@ -45,10 +45,8 @@ This is CRUCIAL for Maven and your IDE to find the JavaFX modules at runtime. Th
 1. ### Clone the Repository:
         Open your terminal or command prompt and clone this GitHub repository:
         
-        git clone [https://github.com/YourGitHubUsername/YourRepoName.git](https://github.com/YourGitHubUsername/YourRepoName.git)
-        cd YourRepoName
+        git clone [https://github.com/agumih/Location-Information-App.git]
         
-     (Remember to replace YourGitHubUsername and YourRepoName with the actual details from your GitHub project URL.)
 
 2. ### Ensure pom.xml is up-to-date:
 Verify that your pom.xml file matches the one provided in the repository, especially the <artifactId>LocationApp</artifactId> and the javafx-maven-plugin configuration for mainClass and vmArgs.
